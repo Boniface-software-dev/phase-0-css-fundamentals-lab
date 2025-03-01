@@ -1,5 +1,51 @@
-body {
-  width: 100%;
-  height: 100%;
-  margin: 0;
+/* Centeer the header text */
+header {
+  text-align: center;
+}
+/* Center the image */
+#featured-property img{
+  display: block;
+  margin: 0% auto;
+}
+/* Style the navigation bar */
+nav {
+  text-align: center;
+}
+nav a {
+  padding: 10px;
+  background-color: grey;
+color: blue;
+text-decoration: none;
+display: inline-block;
+margin: 5px;
+}
+/* Style image caption */
+figcaption {
+  text-align: center;
+  font-size: 14px;
+}
+
+/* Style the featured property text block */
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+/*make the #details section horizontal */
+#details {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f4f4f4;
+  padding: 20px;
+
+}
+/* Style each div in the #details section */
+#details div {
+  width: 25%;
+  padding: 15px;
+  text-align: center;
+  background-color: red;
+  box-sizing: border-box;
+  
 }
